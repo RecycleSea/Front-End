@@ -1,0 +1,1372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.register-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #e0f7fa;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  color: #000;
+}
+
+.blue {
+  color: #3086A4;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.register-form label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.register-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.terms a {
+  color: #3086A4;
+  text-decoration: none;
+}
+
+.register-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signin-link {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.signin-link a {
+  color: #3086A4;
+  text-decoration: none;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.register-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #e0f7fa;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  color: #000;
+}
+
+.blue {
+  color: #3086A4;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.register-form label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.register-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.terms a {
+  color: #3086A4;
+  text-decoration: none;
+}
+
+.register-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signin-link {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.signin-link a {
+  color: #3086A4;
+  text-decoration: none;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* === Landing Page Styles === */
+.landing-page .landing-page, .landing-page .landing-page * {
+box-sizing: border-box;
+}
+.landing-page .landing-page {
+background: #ffffff;
+border-radius: 2px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.1);
+border-width: 1px;
+height: 3241px;
+position: relative;
+overflow-y: auto;
+}
+.landing-page .recycle-sea-intro {
+display: flex;
+flex-direction: column;
+gap: 22px;
+align-items: flex-start;
+justify-content: flex-start;
+width: 647px;
+position: absolute;
+left: 100px;
+top: 221px;
+}
+.landing-page .welcome-to-recycle-sea {
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 64px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: relative;
+align-self: stretch;
+height: 156px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .welcome-to-recycle-sea-span {
+color: var(--typography-900, #18181b);
+font-family: "Inter-Bold", sans-serif;
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 5px;
+font-weight: 700;
+}
+.landing-page .welcome-to-recycle-sea-span2 {
+color: var(--secondary, #3086a4);
+font-family: "Inter-Bold", sans-serif;
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 5px;
+font-weight: 700;
+}
+.landing-page .welcome-to-recycle-sea-span3 {
+color: var(--primary, #004969);
+font-family: "Inter-Bold", sans-serif;
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 5px;
+font-weight: 700;
+}
+.landing-page .gray {
+text-align: left;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 21px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+position: relative;
+align-self: stretch;
+}
+.landing-page .gray-span {
+background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+ linear-gradient(to left, #000000, #000000);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 21px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+}
+.landing-page .gray-span2 {
+background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+ linear-gradient(to left, #3086a4, #3086a4);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 21px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+}
+.landing-page .gray-span3 {
+background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+ linear-gradient(to left, #004969, #004969);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 21px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+}
+.landing-page .gray-span4 {
+background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+ linear-gradient(to left, #000000, #000000);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 21px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+}
+.landing-page .button-social {
+background: var(--energetic-cta, #f9d53f);
+border-radius: 8px;
+border-style: solid;
+border-color: var(--gray-300, #d2d6db);
+border-width: 1px;
+padding: var(--spacing-spacing-12px, 12px) var(--spacing-spacing-24px, 24px)
+ var(--spacing-spacing-12px, 12px) var(--spacing-spacing-24px, 24px);
+display: flex;
+flex-direction: row;
+gap: var(--spacing-spacing-12px, 12px);
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+width: 183px;
+height: 55px;
+position: relative;
+box-shadow: var(
+ --shadow-light-xs-box-shadow,
+ 0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+);
+}
+.landing-page .sign-in-with-google {
+color: #000000;
+text-align: center;
+font-family: "Manrope-Bold", sans-serif;
+font-size: 21px;
+line-height: 24px;
+letter-spacing: 0.2px;
+font-weight: 700;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.landing-page .whale-ilustration {
+width: 653px;
+height: 457px;
+position: absolute;
+left: 808px;
+top: 180px;
+object-fit: cover;
+aspect-ratio: 653/457;
+}
+.landing-page .how-it-works {
+width: 1513px;
+height: 1702px;
+position: absolute;
+left: 0px;
+top: 828px;
+}
+.landing-page .rectangle-2 {
+background: #f3f6f9;
+width: 1513px;
+height: 472px;
+position: absolute;
+left: 0px;
+top: 1699px;
+}
+.landing-page .rectangle-1 {
+background: var(--secondary, #3086a4);
+width: 100%;
+height: 100%;
+position: absolute;
+right: 0%;
+left: 0%;
+bottom: 0%;
+top: 0%;
+}
+.landing-page .how-it-works2 {
+color: #ffffff;
+text-align: center;
+font-family: "Inter-Bold", sans-serif;
+font-size: 48px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 19px;
+font-weight: 700;
+position: absolute;
+left: 100px;
+top: 55px;
+width: 1240px;
+height: 66px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.landing-page .first {
+display: flex;
+flex-direction: column;
+gap: 0px;
+align-items: flex-start;
+justify-content: flex-start;
+width: 493px;
+position: absolute;
+left: 100px;
+top: 251px;
+}
+.landing-page .collect-ocean-waste {
+color: #ffffff;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 30px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: relative;
+align-self: stretch;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .gray2 {
+background: linear-gradient(to left, #ffffff, #ffffff);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: left;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+position: relative;
+align-self: stretch;
+}
+.landing-page .ocean-waste-photo {
+width: 469.27px;
+height: 370px;
+position: absolute;
+left: 860px;
+top: 212px;
+object-fit: cover;
+aspect-ratio: 469.27/370;
+}
+.landing-page .second {
+display: flex;
+flex-direction: column;
+gap: 0px;
+align-items: flex-start;
+justify-content: flex-start;
+width: 504px;
+position: absolute;
+left: 853px;
+top: 631px;
+}
+.landing-page .upload-get-valuation {
+color: #ffffff;
+text-align: right;
+font-family: "Inter-Bold", sans-serif;
+font-size: 30px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: relative;
+align-self: stretch;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.landing-page .gray3 {
+background: linear-gradient(to left, #ffffff, #ffffff);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+position: relative;
+align-self: stretch;
+}
+.landing-page .image-1 {
+width: 469.37px;
+height: 359px;
+position: absolute;
+left: 113px;
+top: 549px;
+object-fit: cover;
+aspect-ratio: 469.37/359;
+}
+.landing-page .third {
+display: flex;
+flex-direction: column;
+gap: 0px;
+align-items: flex-start;
+justify-content: flex-start;
+width: 493px;
+position: absolute;
+left: 100px;
+top: 1068px;
+}
+.landing-page .sell-earn-rewards {
+color: #ffffff;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 30px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: relative;
+align-self: stretch;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .image-4 {
+width: 450.32px;
+height: 362px;
+position: absolute;
+left: 906px;
+top: 922px;
+object-fit: cover;
+aspect-ratio: 450.32/362;
+}
+.landing-page .fourth {
+position: absolute;
+inset: 0;
+}
+.landing-page .recyclers-purchase-materials {
+color: #ffffff;
+text-align: right;
+font-family: "Inter-Bold", sans-serif;
+font-size: 30px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: absolute;
+left: 763px;
+top: 1410px;
+width: 594px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.landing-page .gray4 {
+background: linear-gradient(to left, #ffffff, #ffffff);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-family: "Manrope-SemiBold", sans-serif;
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 0.2px;
+font-weight: 600;
+position: absolute;
+left: 853px;
+top: 1460px;
+width: 504px;
+}
+.landing-page .image-3 {
+width: 357.3px;
+height: 346px;
+position: absolute;
+left: 168px;
+top: 1287px;
+object-fit: cover;
+aspect-ratio: 357.3/346;
+}
+.landing-page .wave-vector {
+height: auto;
+position: absolute;
+left: 0px;
+top: 717px;
+overflow: visible;
+}
+.landing-page .faq {
+width: 1303px;
+height: 328px;
+position: absolute;
+left: 100px;
+top: 2584px;
+}
+.landing-page .faq2 {
+color: var(--typography-900, #18181b);
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 45px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 5px;
+font-weight: 700;
+position: absolute;
+right: 85.8%;
+left: 0%;
+width: 14.2%;
+bottom: 68.29%;
+top: 1.22%;
+height: 30.49%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .faq-2 {
+padding: 30px 0px 3px 0px;
+display: flex;
+flex-direction: column;
+gap: 23px;
+align-items: flex-end;
+justify-content: flex-start;
+width: 47.51%;
+height: 27.13%;
+position: absolute;
+right: 0%;
+left: 52.49%;
+bottom: 41.77%;
+top: 31.1%;
+overflow: hidden;
+}
+.landing-page .how-do-i-start-selling-ocean-plastic-waste-on-recycle-sea {
+color: var(--black, #000000);
+text-align: left;
+font-family: "Inter-SemiBold", sans-serif;
+font-size: 25px;
+line-height: var(--headline-medium-line-height, 36px);
+letter-spacing: 3px;
+font-weight: 600;
+position: absolute;
+left: 0px;
+top: 0px;
+align-self: stretch;
+height: 89px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .iconly-light-outline-arrow-up-3 {
+flex-shrink: 0;
+width: 33px;
+height: 33px;
+position: relative;
+transform-origin: 0 0;
+transform: rotate(-180deg) scale(1, 1);
+}
+.landing-page .iconly-light-outline-arrow-up-2 {
+width: 100%;
+height: 100%;
+position: absolute;
+right: 0%;
+left: 0%;
+bottom: 0%;
+top: 0%;
+}
+.landing-page .arrow-up-2 {
+width: 64.58%;
+height: 35.42%;
+position: absolute;
+right: -46.88%;
+left: 82.29%;
+bottom: -3.12%;
+top: 67.71%;
+transform: translate(0px, 0px);
+overflow: visible;
+}
+.landing-page .line-4 {
+margin-top: -1px;
+border-style: solid;
+border-color: #000000;
+border-width: 1px 0 0 0;
+align-self: stretch;
+flex-shrink: 0;
+height: 0px;
+position: relative;
+}
+.landing-page .faq-1 {
+display: flex;
+flex-direction: row;
+row-gap: 1px;
+align-items: flex-start;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+width: 47.51%;
+height: 14.94%;
+position: absolute;
+right: 0%;
+left: 52.49%;
+bottom: 85.06%;
+top: 0%;
+}
+.landing-page .what-is-recycle-sea {
+color: var(--black, #000000);
+text-align: left;
+font-family: "Inter-SemiBold", sans-serif;
+font-size: 25px;
+line-height: var(--display-large-line-height, 64px);
+letter-spacing: 3px;
+font-weight: 600;
+position: relative;
+width: 594px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .iconly-light-outline-arrow-up-22 {
+margin: 0 0 0 -15px;
+flex-shrink: 0;
+width: 33px;
+height: 33px;
+position: relative;
+transform-origin: 0 0;
+transform: rotate(-180deg) scale(1, 1);
+}
+.landing-page .arrow-up-22 {
+width: 64.58%;
+height: 35.42%;
+position: absolute;
+right: -46.88%;
+left: 82.29%;
+bottom: -3.12%;
+top: 67.71%;
+transform: translate(0px, 0px);
+overflow: visible;
+}
+.landing-page .line-3 {
+margin: 0 0 0 -15px;
+margin-top: -1px;
+border-style: solid;
+border-color: #000000;
+border-width: 1px 0 0 0;
+flex-shrink: 0;
+width: 619px;
+height: 0px;
+position: relative;
+}
+.landing-page .faq-3 {
+display: flex;
+flex-direction: row;
+row-gap: 16px;
+align-items: flex-start;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+width: 47.51%;
+height: 19.51%;
+position: absolute;
+right: 0%;
+left: 52.49%;
+bottom: 0%;
+top: 80.49%;
+}
+.landing-page .what-types-of-plastic-waste-are-accepted-on-the-platform {
+color: var(--black, #000000);
+text-align: left;
+font-family: "Inter-SemiBold", sans-serif;
+font-size: 25px;
+line-height: var(--headline-medium-line-height, 36px);
+letter-spacing: 3px;
+font-weight: 600;
+position: relative;
+width: 594px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .iconly-light-outline-arrow-up-4 {
+margin: 0 0 0 -15px;
+flex-shrink: 0;
+width: 33px;
+height: 33px;
+position: relative;
+transform-origin: 0 0;
+transform: rotate(-180deg) scale(1, 1);
+}
+.landing-page .arrow-up-23 {
+width: 64.58%;
+height: 35.42%;
+position: absolute;
+right: -46.88%;
+left: 82.29%;
+bottom: -3.12%;
+top: 67.71%;
+transform: translate(0px, 0px);
+overflow: visible;
+}
+.landing-page .line-5 {
+margin: 0 0 0 -15px;
+margin-top: -1px;
+border-style: solid;
+border-color: #000000;
+border-width: 1px 0 0 0;
+flex-shrink: 0;
+width: 619px;
+height: 0px;
+position: relative;
+}
+.landing-page .footer {
+width: 1512px;
+height: 245px;
+position: absolute;
+left: 1px;
+top: 2996px;
+}
+.landing-page .footer2 {
+width: 100%;
+height: 100%;
+position: absolute;
+right: 0%;
+left: 0%;
+bottom: 0%;
+top: 0%;
+}
+.landing-page .rectangle {
+background: #f7f9fb;
+width: 100%;
+height: 100%;
+position: absolute;
+right: 0%;
+left: 0%;
+bottom: 0%;
+top: 0%;
+}
+.landing-page .sep {
+width: 100%;
+height: 55.81%;
+position: absolute;
+right: 0%;
+left: 0%;
+bottom: 44.19%;
+top: 0%;
+overflow: visible;
+}
+.landing-page .navigation {
+position: absolute;
+inset: 0;
+}
+.landing-page .about-recycle-sea-bridges-waste-collectors-and-recycling-industries-turning-ocean-waste-into-value-together-we-create-a-cleaner-environment-and-support-the-circular-economy {
+color: #181818;
+text-align: left;
+font-family: "Manrope-Regular", sans-serif;
+font-size: 15px;
+font-weight: 400;
+position: absolute;
+right: 63.13%;
+left: 18.06%;
+width: 18.82%;
+bottom: 12.56%;
+top: 27.91%;
+height: 59.53%;
+}
+.landing-page .navigation2 {
+color: #181818;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+position: absolute;
+right: 76.39%;
+left: 18.06%;
+width: 5.56%;
+bottom: 75.81%;
+top: 16.28%;
+height: 7.91%;
+}
+.landing-page .community-guidelines-privacy-terms-contact-social-media {
+color: #181818;
+text-align: left;
+font-family: "Manrope-Regular", sans-serif;
+font-size: 15px;
+font-weight: 400;
+position: absolute;
+right: 46.1%;
+left: 42.39%;
+width: 11.51%;
+bottom: 21.22%;
+top: 29.39%;
+height: 49.39%;
+}
+.landing-page .fast-access {
+position: absolute;
+inset: 0;
+}
+.landing-page .fast-access2 {
+color: #181818;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+position: absolute;
+right: 34.33%;
+left: 58.99%;
+width: 6.68%;
+bottom: 76.73%;
+top: 18.37%;
+height: 4.9%;
+}
+.landing-page .div {
+width: 178.5px;
+height: 36.47px;
+position: static;
+}
+.landing-page .rectangle-2-2 {
+background: var(--energetic-cta, #f9d53f);
+border-radius: 4px;
+border-style: solid;
+border-color: var(--energetic-cta, #f9d53f);
+border-width: 1px;
+width: 11.81%;
+height: 14.88%;
+position: absolute;
+right: 29.17%;
+left: 59.03%;
+bottom: 50.98%;
+top: 34.13%;
+}
+.landing-page .questions {
+color: #ffffff;
+text-align: left;
+font-family: "GothamPro-Medium", sans-serif;
+font-size: 12px;
+font-weight: 500;
+text-transform: uppercase;
+position: absolute;
+right: 34.31%;
+left: 60.07%;
+width: 5.63%;
+bottom: 55.63%;
+top: 39.25%;
+height: 5.12%;
+}
+.landing-page .help-circle {
+width: 1.11%;
+height: 7.44%;
+position: absolute;
+right: 30.21%;
+left: 68.68%;
+bottom: 54.7%;
+top: 37.85%;
+overflow: visible;
+}
+.landing-page .rectangle-2-22 {
+border-radius: 4px;
+border-style: solid;
+border-color: var(--energetic-cta, #f9d53f);
+border-width: 1px;
+width: 11.81%;
+height: 14.88%;
+position: absolute;
+right: 29.17%;
+left: 59.03%;
+bottom: 31.45%;
+top: 53.67%;
+}
+.landing-page .settings {
+color: var(--energetic-cta, #f9d53f);
+text-align: left;
+font-family: "Inter-Regular", sans-serif;
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+position: absolute;
+right: 35.63%;
+left: 60.07%;
+width: 4.31%;
+bottom: 36.1%;
+top: 58.79%;
+height: 5.12%;
+}
+.landing-page .settings2 {
+width: 1.11%;
+height: 7.44%;
+position: absolute;
+right: 30.24%;
+left: 68.65%;
+bottom: 35.1%;
+top: 57.46%;
+overflow: visible;
+}
+.landing-page .language {
+position: absolute;
+inset: 0;
+}
+.landing-page .language2 {
+color: #181818;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+position: absolute;
+right: 17.59%;
+left: 76.06%;
+width: 6.35%;
+bottom: 76.73%;
+top: 18.37%;
+height: 4.9%;
+}
+.landing-page .div2 {
+width: 283.5px;
+height: 47.37px;
+position: static;
+}
+.landing-page .rectangle-2-23 {
+background: #ffffff;
+border-radius: 4px;
+border-style: solid;
+border-color: #f0f0f0;
+border-width: 1px;
+width: 18.75%;
+height: 19.34%;
+position: absolute;
+right: 5.19%;
+left: 76.06%;
+bottom: 46.53%;
+top: 34.13%;
+}
+.landing-page .chevron-down {
+width: 0.97%;
+height: 8.46%;
+position: absolute;
+right: 6.23%;
+left: 92.79%;
+bottom: 51.97%;
+top: 39.57%;
+overflow: visible;
+}
+.landing-page .english {
+color: #181818;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+position: absolute;
+right: 17%;
+left: 77.12%;
+width: 5.89%;
+bottom: 52.41%;
+top: 40.69%;
+height: 6.89%;
+}
+.landing-page .recycle-sea-logo {
+width: 13.03%;
+height: 197px;
+position: absolute;
+right: 85.32%;
+left: 1.65%;
+top: 24px;
+object-fit: cover;
+aspect-ratio: 1;
+}
+.landing-page .header {
+border-style: solid;
+border-color: rgba(113, 113, 122, 0.21);
+border-width: 1px;
+padding: 0px 58px 0px 58px;
+display: flex;
+flex-direction: row;
+gap: 15px;
+align-items: center;
+justify-content: flex-start;
+width: 1512px;
+height: 111px;
+position: absolute;
+left: 50%;
+translate: -50%;
+top: 0px;
+}
+.landing-page .logo-navigation-menu {
+display: flex;
+flex-direction: row;
+gap: 45px;
+align-items: center;
+justify-content: flex-start;
+flex-shrink: 0;
+width: 1037px;
+height: 54px;
+position: relative;
+}
+.landing-page .logo {
+flex-shrink: 0;
+width: 93px;
+height: 25px;
+position: relative;
+}
+.landing-page .recycle-sea-logo2 {
+width: 94px;
+height: 94px;
+position: absolute;
+left: 0px;
+top: -34.5px;
+object-fit: cover;
+aspect-ratio: 1;
+}
+.landing-page .navigation-menu {
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: flex-start;
+justify-content: flex-start;
+flex-shrink: 0;
+position: relative;
+}
+.landing-page .home {
+color: var(--secondary, #3086a4);
+text-align: left;
+font-family: "Inter-Medium", sans-serif;
+font-size: 22px;
+line-height: 17px;
+font-weight: 500;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .marketplace {
+color: #000000;
+text-align: left;
+font-family: "Inter-Medium", sans-serif;
+font-size: 22px;
+line-height: 17px;
+font-weight: 500;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .how-it-works3 {
+color: #000000;
+text-align: left;
+font-family: "Inter-Medium", sans-serif;
+font-size: 22px;
+line-height: 17px;
+font-weight: 500;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .sustainability {
+color: #000000;
+text-align: left;
+font-family: "Inter-Medium", sans-serif;
+font-size: 22px;
+line-height: 17px;
+font-weight: 500;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .pricing {
+color: #000000;
+text-align: left;
+font-family: "Inter-Medium", sans-serif;
+font-size: 22px;
+line-height: 17px;
+font-weight: 500;
+position: relative;
+width: 73px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.landing-page .button-social2 {
+background: var(--base-white, #ffffff);
+border-radius: 8px;
+border-style: solid;
+border-color: var(--gray-300, #d2d6db);
+border-width: 1px;
+padding: var(--spacing-spacing-12px, 12px) var(--spacing-spacing-24px, 24px)
+ var(--spacing-spacing-12px, 12px) var(--spacing-spacing-24px, 24px);
+display: flex;
+flex-direction: row;
+gap: var(--spacing-spacing-12px, 12px);
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+width: 118px;
+height: 55px;
+position: relative;
+box-shadow: var(
+ --shadow-light-xs-box-shadow,
+ 0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+);
+}
+.landing-page .sign-in-with-google2 {
+color: var(--primary, #0077b6);
+text-align: center;
+font-family: "Manrope-Bold", sans-serif;
+font-size: 21px;
+line-height: 24px;
+letter-spacing: 0.2px;
+font-weight: 700;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* === Landing Page Styles === */
+/* Semua style yang dimulai dengan .landing-page ... dipindahkan ke sini */
+/* ... (kode lengkap sudah ada di file CSS-mu, tinggal ditambahkan setelah ini) */
